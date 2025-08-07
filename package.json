@@ -2,7 +2,7 @@
   "name": "ghost-chase-online",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p public && cp index.html public/",
-    "dev": "npx serve ."
+    "build": "echo 'Static site ready'",
+    "dev": "npx serve public"
   }
 }
